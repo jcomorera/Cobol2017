@@ -5,7 +5,7 @@
 	https://www.tutorialspoint.com/compile_cobol_online.php
 	
 	Algunos de los códigos que trabajan con ficheros son optimizables,
-	devido a que el copilador online y rm/cobol no acepta ficheros i/o.
+	debido a que el copilador online y rm/cobol no acepta ficheros i/o.
 	
 	CSV_SIMPLETXT:  -Convierte un fichero csv a un fichero de texto line-sequencial.
 			-Elimina el delimitador, en este caso la ','.

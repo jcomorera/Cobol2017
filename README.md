@@ -1,8 +1,7 @@
 # Cobol2017
 	Programas simples utilizando cobol.
   
-	Sino se dispone de un copilador/IDE en el pc puede utiltizar
-	el siguiente copilador online:
+	Sino se dispone de un copilador/IDE en el pc puede utiltizar el siguiente copilador online:
 	https://www.tutorialspoint.com/compile_cobol_online.php
 	
 	Algunos de los códigos que trabajan con ficheros son optimizables,

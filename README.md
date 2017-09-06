@@ -1,2 +1,2 @@
 # Cobol2017
-Programas simples en cobol
+Programas simples utilizando cobol.

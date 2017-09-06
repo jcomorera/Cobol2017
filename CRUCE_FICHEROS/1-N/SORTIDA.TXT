@@ -1,0 +1,18 @@
+LA CLAU 001 AMB NOM A          TÉ EL NUMERO DE COMPTE      0000005665          
+LA CLAU 002 AMB NOM B          TÉ EL NUMERO DE COMPTE      0000654654          
+LA CLAU 003 AMB NOM C          TÉ EL NUMERO DE COMPTE      0000671168          
+LA CLAU 004 NO TÉ NUMERO DE COMPTE                                             
+LA CLAU 005 AMB NOM E          TÉ EL NUMERO DE COMPTE      0000000061          
+NO HI HA TITULAR PEL NUMERO DE COMPTE 0000168543                                
+LA CLAU 007 NO TÉ NUMERO DE COMPTE                                             
+LA CLAU 008 AMB NOM G          TÉ EL NUMERO DE COMPTE      0000000068          
+LA CLAU 009 AMB NOM H          TÉ EL NUMERO DE COMPTE      0000000681          
+LA CLAU 010 AMB NOM I          TÉ EL NUMERO DE COMPTE      0000000645          
+LA CLAU 012 NO TÉ NUMERO DE COMPTE                                             
+LA CLAU 013 AMB NOM K          TÉ EL NUMERO DE COMPTE      0000000546          
+LA CLAU 014 NO TÉ NUMERO DE COMPTE                                             
+LA CLAU 015 NO TÉ NUMERO DE COMPTE                                             
+LA CLAU 016 AMB NOM N          TÉ EL NUMERO DE COMPTE      0000000156          
+LA CLAU 017 NO TÉ NUMERO DE COMPTE                                             
+LA CLAU 018 NO TÉ NUMERO DE COMPTE                                             
+NO HI HA TITULAR PEL NUMERO DE COMPTE 0000000681                                

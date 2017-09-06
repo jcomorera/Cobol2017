@@ -19,4 +19,7 @@
 
 	SIMPLETXT-JSON:	-Utilizando el informe generado en el CSV_SIMPLETXT, convertimos el texto a formato .json simple.
 			-Se podria utilizar este proceso para grandes cantidades de datos.
-				
+	
+	CRUCE_FICHEROS: -Distintos cruces de ficheros: 1-1 | 1-N | N-N | 1-1-1 | 1-1-1-1 .
+			-Ejemplos de merge.
+			

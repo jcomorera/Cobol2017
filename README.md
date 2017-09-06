@@ -11,6 +11,6 @@
 	CSV_SIMPLETXT:  -Convierte un fichero csv a un fichero de texto plano.
 			-Elimina el delimitador, en este caso la ','.
 			-Utiliza SORT para ordenar los registros.
-									
+			-Elimina repeticiones y muestra numero de repeticiones.						
 									
 	

@@ -13,5 +13,9 @@
 			-Utiliza SORT para ordenar los registros.
 			-Elimina repeticiones y muestra numero de repeticiones.	
 			-Crea el informe en un documento .txt , pudiendo cambiar el formato en la input-ouput section.
-									
+	
+	SIMPLETXT-XML:	-Utilizando el informe generado en el CSV_SIMPLETXT, convertimos el texto a formato xml simple.
+			-Se podria utilizar este proceso para grandes cantidades de datos.
+			-Con poca modificacíon creariamos elementos raiz.
+			
 	

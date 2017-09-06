@@ -8,9 +8,10 @@
 	Algunos de los códigos que trabajan con ficheros son optimizables,
 	devido a que el copilador online y rm/cobol no acepta ficheros i/o.
 	
-	CSV_SIMPLETXT:  -Convierte un fichero csv a un fichero de texto plano.
+	CSV_SIMPLETXT:  -Convierte un fichero csv a un fichero de texto line-sequencial.
 			-Elimina el delimitador, en este caso la ','.
 			-Utiliza SORT para ordenar los registros.
-			-Elimina repeticiones y muestra numero de repeticiones.						
+			-Elimina repeticiones y muestra numero de repeticiones.	
+			-Crea el informe en un documento .txt , pudiendo cambiar el formato en la input-ouput section.
 									
 	

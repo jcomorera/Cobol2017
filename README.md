@@ -28,6 +28,6 @@
 	
 	INDEXADOS:	-ESCRITURA: -Escritura de un fichero indexado apartir de un fichero sequencial.
 			-LECTURA:   -Conversion de un fichero indexado a un fichero sequencial.
-				    -Con el conocimiento de la longitud de sus registros y clave principal.
+				    -Con el conocimiento de la longitud de sus registros y clave primaria.
 			
 			

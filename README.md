@@ -16,6 +16,9 @@
 
 	SIMPLETXT-JSON:	-Utilizando el informe generado en el CSV_SIMPLETXT, convertimos el texto a formato .json simple.
 			-Se podria utilizar este proceso para grandes cantidades de datos.
+			
+	TXT-CSV:	-Utilizando el informe en formato .txt generado en el CSV_SIMPLETXT hacemos la conversion a formato csv.
+			-Se conservan los caracteres de espacio para una futura conversion.
 	
 	CRUCE_FICHEROS: -Cruces de ficheros: 1-1 | 1-N | N-N | 1-1-1 | 1-1-1-1 .
 			

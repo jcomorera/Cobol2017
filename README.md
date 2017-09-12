@@ -27,6 +27,6 @@
 	CRUCE_FICHEROS: -Cruces de ficheros: 1-1 | 1-N | N-N | 1-1-1 | 1-1-1-1 .
 	
 	INDEXADOS:	-ESCRITURA: Escritura de un fichero indexado apartir de un fichero sequencial.
-			-LECTURA: Conversion de un fichero indexado a un fichero sequencial con el conocimiento de la longitud de sus 					  registros.
+			-LECTURA: Conversion de un fichero indexado a un fichero sequencial con el conocimiento de la longitud de sus registros.
 			
 			

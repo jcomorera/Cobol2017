@@ -23,6 +23,8 @@
 	XML-TXT:	-Utilizando el informe en formato .xml generado en el SIMPLETXT-XML hacemos la conversion a formato txt.
 			-Se conservan los caracteres de espacio para una futura conversion.
 	
+	JSON-TXT:	-Utilizando el informe con formato JSON con registros de longitud fija, convertimos el formato a un txt simple.
+			-Algun copilador como RMCOBOL de DOS no lee ficheros .json .
 	
 	CRUCE_FICHEROS: -Cruces de ficheros: 1-1 | 1-N | N-N | 1-1-1 | 1-1-1-1 .
 	

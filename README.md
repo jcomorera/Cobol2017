@@ -20,6 +20,10 @@
 	TXT-CSV:	-Utilizando el informe en formato .txt generado en el CSV_SIMPLETXT hacemos la conversion a formato csv.
 			-Se conservan los caracteres de espacio para una futura conversion.
 	
+	XML-TXT:	-Utilizando el informe en formato .xml generado en el SIMPLETXT-XML hacemos la conversion a formato txt.
+			-Se conservan los caracteres de espacio para una futura conversion.
+	
+	
 	CRUCE_FICHEROS: -Cruces de ficheros: 1-1 | 1-N | N-N | 1-1-1 | 1-1-1-1 .
 			
 			

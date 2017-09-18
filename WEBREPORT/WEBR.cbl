@@ -35,7 +35,7 @@
            05 FS-WEB PIC X(02).
        01 HTML.
            05 HTML00     PIC X(70) VALUE
-           "<!DOCTYPE HTML><html STYLE=""color=white"">".
+           "<!DOCTYPE HTML><html>".
            05 HTML01     PIC X(70) VALUE
            "<head><title>WEBREPORT</title></head>".
            05 HTML02     PIC X(60) VALUE

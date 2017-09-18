@@ -1,5 +1,9 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID.WEBR.
+      ***********************************************
+      * CREACION DE REPORT WEB,UTILIZANDO COBOL HTML*
+      * Y CSS.                                      *
+      ***********************************************
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
@@ -35,15 +39,19 @@
            05 FS-WEB PIC X(02).
        01 HTML.
            05 HTML00     PIC X(70) VALUE
-           "<!DOCTYPE HTML><html>".
+           "<!DOCTYPE HTML><html STYLE=""color=white"">".
            05 HTML01     PIC X(70) VALUE
            "<head><title>WEBREPORT</title></head>".
-           05 HTML02     PIC X(60) VALUE
-           "<body STYLE=""background-color:grey""><h1>WEBREPORT</h1>".
-		   05 HTML0202     PIC X(60) VALUE
-           "<h1 STYLE=""align:center"">WEBREPORT</h1>".
+           05 HTML0201     PIC X(60) VALUE
+           "<body STYLE=""background-color:grey;color:white"">".
+           05 HTML0202     PIC X(60) VALUE
+           "<div STYLE=""margin:100px 100px 100px;display:center"">".
+           05 HTML0203     PIC X(60) VALUE
+           "<h1 STYLE=""text-align:center;border-style:rounded"">".
+           05 HTML0204     PIC X(60) VALUE
+           "WEBREPORT</h1>".
            05 HTML03     PIC X(60) VALUE
-           "<table STYLE=""align:center,border:4px"">".
+           "<table STYLE=""align:left,border:4px;margin:0 auto"">".
            05 HTML04     PIC X(10) VALUE
            "<tr>".
            05 HTML05     PIC X(10) VALUE
@@ -53,7 +61,7 @@
            05 HTML07     PIC X(10) VALUE
            "</td>".
            05 HTML08     PIC X(30) VALUE
-           "</table></body></html>".
+           "</table></div></body></html>".
 
        01 SWITCHES PIC X.
            88 FIN-FICHER VALUE'S'.
@@ -110,26 +118,28 @@
        WEBS.
        WRITE REG-WEB FROM HTML00
        WRITE REG-WEB FROM HTML01
-       WRITE REG-WEB FROM HTML02.
-       WRITE REG-WEB FROM HTML0202.
+       WRITE REG-WEB FROM HTML0201
+       WRITE REG-WEB FROM HTML0202
+       WRITE REG-WEB FROM HTML0203
+       WRITE REG-WEB FROM HTML0204
        WRITE REG-WEB FROM HTML03.
        FIN.EXIT.
 
        PROCES.
        PERFORM WEBS
-	   SET NO-FIN-FICHER TO TRUE
+       SET NO-FIN-FICHER TO TRUE
        PERFORM UNTIL FIN-FICHER
            PERFORM LLEGIR01
            PERFORM LLEGIR02
            WRITE REG-WEB FROM HTML04
            WRITE REG-WEB FROM HTML06
            WRITE REG-WEB FROM WS-VARIABLE01
-		   WRITE REG-WEB FROM HTML07
-		   WRITE REG-WEB FROM HTML06
-		   WRITE REG-WEB FROM WS-VARIABLE02
-		   WRITE REG-WEB FROM HTML07
-		   WRITE REG-WEB FROM HTML05
-           
+           WRITE REG-WEB FROM HTML07
+           WRITE REG-WEB FROM HTML06
+           WRITE REG-WEB FROM WS-VARIABLE02
+           WRITE REG-WEB FROM HTML07
+           WRITE REG-WEB FROM HTML05
+
            WRITE REG-WEB FROM SPACES
        END-PERFORM
        WRITE REG-WEB FROM HTML07.

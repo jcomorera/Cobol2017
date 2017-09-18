@@ -33,70 +33,70 @@
             05 FILLER        PIC X(01).
         FD OUTFILE.
         01 OF-REG.
-            05 OF-NUMERO01        PIC X(07).
+            05 OF-NUMERO01       PIC X(07).
             05 FILLER            PIC X(01).
-            05 OF-COGNOM01        PIC X(20).
+            05 OF-COGNOM01       PIC X(20).
             05 FILLER            PIC X(01).
-            05 OF-ZGEO01        PIC X(09).
+            05 OF-ZGEO01         PIC X(09).
             05 FILLER            PIC X(01).
-            05 OF-CONTADOR01    PIC 9(02).
+            05 OF-CONTADOR01     PIC 9(02).
         FD OUTFILE02.
         01 OF-REG02.
-            05 OF-NUMERO    PIC X(07).
-            05 FILLER        PIC X(01).
-            05 OF-COGNOM    PIC X(20).
-            05 FILLER        PIC X(01).
-            05 OF-ZGEO        PIC X(09).
-            05 FILLER        PIC X(01).
-            05 OF-CONTADOR    PIC 9(02).
+            05 OF-NUMERO         PIC X(07).
+            05 FILLER            PIC X(01).
+            05 OF-COGNOM         PIC X(20).
+            05 FILLER            PIC X(01).
+            05 OF-ZGEO           PIC X(09).
+            05 FILLER            PIC X(01).
+            05 OF-CONTADOR       PIC 9(02).
         SD ORDENAR.
         01 OR-REG.
-            05 OR-NUMERO    PIC X(07).
-            05 FILLER        PIC X(01).
-            05 OR-COGNOM    PIC X(21).
-            05 FILLER        PIC X(01).
-            05 OR-ZGEO        PIC X(09).
-            05 FILLER        PIC X(01).
-            05 OR-CONTADOR    PIC 9(02).
+            05 OR-NUMERO         PIC X(07).
+            05 FILLER            PIC X(01).
+            05 OR-COGNOM         PIC X(21).
+            05 FILLER            PIC X(01).
+            05 OR-ZGEO           PIC X(09).
+            05 FILLER            PIC X(01).
+            05 OR-CONTADOR       PIC 9(02).
 
        WORKING-STORAGE SECTION.
         01 WS-DADES.
-            05 NUMERO        PIC X(07).
-            05 FILLER         PIC X(1).
-            05 COGNOM        PIC X(20).
-            05 FILLER         PIC X(1).
-            05 ZGEO            PIC X(09).
-            05 FILLER         PIC X(1).
-            05 WS-CONTADOR     PIC X(02).
+            05 NUMERO            PIC X(07).
+            05 FILLER            PIC X(1).
+            05 COGNOM            PIC X(20).
+            05 FILLER            PIC X(1).
+            05 ZGEO              PIC X(09).
+            05 FILLER            PIC X(1).
+            05 WS-CONTADOR       PIC X(02).
 
 
         01 SWITCH             PIC X.
-            88 FIN-FICHERO        VALUE "S".
+            88 FIN-FICHERO       VALUE "S".
             88 NO-FIN-FICHERO    VALUE "N".
 
         01 ESCRIBIR-LINIA.
-           05 WR-NUMERO     PIC X(7).
-           05 FILLER         PIC X(1).
-           05 WR-COGNOM     PIC X(20).
-           05 FILLER         PIC X(1).
+           05 WR-NUMERO       PIC X(7).
+           05 FILLER          PIC X(1).
+           05 WR-COGNOM       PIC X(20).
+           05 FILLER          PIC X(1).
            05 WR-ZGEO         PIC X(09).
-           05 FILLER         PIC X(1).
+           05 FILLER          PIC X(1).
            05 WR-CONTADOR     PIC X(02).
 
         01 FS-STATUS.
-            05 FS-INFILE    PIC X(02).
-            05 FS-OUTFILE    PIC X(02).
-            05 FS-OUTFILE02    PIC X(02).
+            05 FS-INFILE      PIC X(02).
+            05 FS-OUTFILE     PIC X(02).
+            05 FS-OUTFILE02   PIC X(02).
 
         01 TAULES.
             05 TAULA-INTERNA    OCCURS 20 TIMES.
-                10 T-NUMERO        PIC X(07).
-                10 FILLER        PIC X(01).
-                10 T-COGNOM        PIC X(20).
-                10 FILLER        PIC X(01).
-                10 T-ZGEO        PIC X(09).
-                10 FILLER        PIC X(01).
-                10 T-CONTADOR     PIC 9(02).
+                10 T-NUMERO   PIC X(07).
+                10 FILLER     PIC X(01).
+                10 T-COGNOM   PIC X(20).
+                10 FILLER     PIC X(01).
+                10 T-ZGEO     PIC X(09).
+                10 FILLER     PIC X(01).
+                10 T-CONTADOR PIC 9(02).
 
         01 CONTADOR            PIC 9(02).
 

@@ -130,7 +130,7 @@
 	   FINALIZAR.
 	   
 	   CLOSE 	INFILE
-				OUTFILE
+			OUTFILE.
 		
 	   GOBACK.
 	   

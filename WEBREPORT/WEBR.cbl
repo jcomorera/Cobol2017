@@ -39,7 +39,7 @@
            05 HTML01     PIC X(70) VALUE
            "<head><title>WEBREPORT</title></head>".
            05 HTML02     PIC X(60) VALUE
-           "<body STYLE=""background-color:yellow""><h1>WEBREPORT</h1>".
+           "<body STYLE=""background-color:grey""><h1>WEBREPORT</h1>".
 		   05 HTML0202     PIC X(60) VALUE
            "<h1 STYLE=""align:center"">WEBREPORT</h1>".
            05 HTML03     PIC X(60) VALUE

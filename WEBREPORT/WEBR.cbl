@@ -1,9 +1,5 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID.WEBR.
-      ***********************************************
-      * CREACION DE REPORT WEB,UTILIZANDO COBOL HTML*
-      * Y CSS.                                      *
-      ***********************************************
        ENVIRONMENT DIVISION.
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
@@ -51,13 +47,13 @@
            05 HTML0204     PIC X(60) VALUE
            "WEBREPORT</h1>".
            05 HTML03     PIC X(60) VALUE
-           "<table STYLE=""align:left,border:4px;margin:0 auto"">".
-           05 HTML04     PIC X(10) VALUE
-           "<tr>".
+           "<table STYLE=""border:1px solid #000;margin:0 auto"">".
+           05 HTML04     PIC X(50) VALUE
+           "<tr STYLE=""border:1px solid #000;"">".
            05 HTML05     PIC X(10) VALUE
            "</tr>".
-           05 HTML06     PIC X(10) VALUE
-           "<td>".
+           05 HTML06     PIC X(50) VALUE
+           "<td STYLE=""border:1px solid #000;"">".
            05 HTML07     PIC X(10) VALUE
            "</td>".
            05 HTML08     PIC X(30) VALUE
@@ -139,8 +135,6 @@
            WRITE REG-WEB FROM WS-VARIABLE02
            WRITE REG-WEB FROM HTML07
            WRITE REG-WEB FROM HTML05
-
-           WRITE REG-WEB FROM SPACES
        END-PERFORM
        WRITE REG-WEB FROM HTML07.
 
@@ -148,4 +142,3 @@
        FINALIZAR.
        STOP RUN.
        GOBACK.
-       END PROGRAM WEBR.

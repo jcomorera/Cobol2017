@@ -140,5 +140,8 @@
 
        FIN.EXIT.
        FINALIZAR.
+       CLOSE INFILE01
+             INFILE02
+             WEB.
        STOP RUN.
        GOBACK.
